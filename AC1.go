@@ -35,7 +35,7 @@ func minhaPotencia(base, expoente int) int {
 	}
 }
 
-//Exercicio 4: funcao converte Celsius->Fahrenheit
+//Exercicio 4: funcao converter Celsius->Fahrenheit
 func converteCelsiusParaFahrenheit(celsius int) float32 {
 	return float32(celsius)*9/5 + 32
 }
