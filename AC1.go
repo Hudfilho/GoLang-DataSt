@@ -42,8 +42,8 @@ func converteCelsiusParaFahrenheit(celsius int) float32 {
 
 func main() {
 	fmt.Println(calculaMedia(3)) //deve requisitar 3 números ao usuario e retornar a media aritm
-	verificaParidade(16) //deve printar "é par"
-	verificaParidade(11) //deve printar "é impar"
+	verificaParidade(16) //deve printar "numero par"
+	verificaParidade(11) //deve printar "numero impar"
 	fmt.Println(minhaPotencia(10, 0)) //deve retornar 1
 	fmt.Println(minhaPotencia(2, 11)) //deve retornar 2048
 	fmt.Println(converteCelsiusParaFahrenheit(32)) //deve retornar 89.6
