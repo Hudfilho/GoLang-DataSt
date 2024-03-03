@@ -46,17 +46,23 @@ func main() {
 		fmt.Println(vetor[i])
 	}
 
-	ponto := Ponto{X: 3, Y: 4}
-	fmt.Println(ponto.DistanciaOrigem())
-
 	//Exercicio 2:
 	var palavra string
 	fmt.Println("Informe uma string para ser invertida: ")
 	fmt.Scanln(&palavra)
 	fmt.Println(inverteString(palavra))
 
+	//Exercicio 3:
+	ponto := Ponto{X: 3, Y: 4}
+	fmt.Println(ponto.DistanciaOrigem())
+
 	//Exercicio 4: crie um pacote geometria com funcoes para calcular a area e o perimetro de um retangulo.
-	fmt.Println(g.Area(12, 78))
-	fmt.Println(g.Perimetro(5, 6))
+	var altura, largura float32
+	fmt.Println("Informe a altura do retangulo: ")
+	fmt.Scanln(&altura)
+	fmt.Println("Informe a largura do retangulo: ")
+	fmt.Scanln(&largura)
+	fmt.Println(g.Area(altura, largura))
+	fmt.Println(g.Perimetro(altura, largura))
 
 }
